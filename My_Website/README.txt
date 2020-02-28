@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/calvrix/pen/pbbNQM.
+Hello, This is My Website. It is still yet in the making.
+My_Website would need a database and a Website Hosting as a basic requirement.
+You can access the website by clicking on index.html.
 
  
