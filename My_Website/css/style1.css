@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: ;
+  font-family: 'Oxygen', sans-serif;
+  color: #9EA0AA;
+}
+
+#content {
+  max-width: 340px;
+  margin: 40px auto 0;
+  position: relative;
+}
+#content .comment-box {
+  max-width: 400px;
+  height: 450px;
+  background: #FFFFFF
+  border-radius: 2px;
+  box-shadow: 0px 15px 30px rgba(40, 40, 80, 0.2);
+}
+#content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 50px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #F1F1F6;
+  margin: 0;
+  padding: 0;
+  height: 35px;
+}
+#content .comment-list {
+  padding: 20px;
+  height: 330px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#content .comment-list .comment {
+  padding: 0 0 10px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid #F1F1F6;
+}
+#content .comment-list .comment b {
+  text-transform: capitalize;
+  font-size: 11px;
+  line-height: 5px;
+}
+#content .comment-list .comment span {
+  font-size: 12px;
+  line-height: 1px;
+}
+#content .comment-list .comment:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#content .comment-form {
+  height: 100px;
+  padding: 20px;
+  border-top: 1px solid #F1F1F6;
+}
+#content .comment-form input {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #F1F1F6;
+  padding: 0 18px;
+  margin: 0;
+  font-size: 12px;
+  height: 30px;
+  color: #9EA0AA;
+}
+#content .comment-form input:focus {
+  outline: none;
+  box-shadow: inset 2px 0 0 0 #626FB0;
+}
+#content .comment-form input:first-child {
+  border-top: 5;
+}
+#content .comment-form button {
+  background: #000000;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  text-indent: 40px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  line-height: 40px;
+  font-family: FontAwesome;
+  transition: 0.2s;
+  box-shadow: 0 3px 8px 3px rgba(40, 40, 80, 0.2);
+  bottom: 18px;
+  right: 0;
+}
+#content .comment-form button:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  z-index: 10;
+  color: #FFFFFF;
+  content: "\f1d9";
+  text-indent: 0;
+  text-align: center;
+}
+#content .comment-form button:hover, #content .comment-form button:focus {
+  transform: scale(1.2);
+  box-shadow: 0 5px 15px 0px rgba(40, 40, 80, 0.2);
+  outline: none;
+}
